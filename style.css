@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.buttons{
+    margin-left: 1025px;
+    padding: 2em;
+    justify-content: space-between;
+}
+.buttons .login{
+    margin-right: 2em;
+    background-color: #579CFD;
+    border: 0;
+    border-radius: 15px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    cursor: pointer;
+}
+.buttons .signup{
+    background-color: #579CFD;
+    border: 0;
+    border-radius: 15px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    cursor: pointer;
+}
