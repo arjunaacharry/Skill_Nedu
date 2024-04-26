@@ -28,3 +28,11 @@
     padding-bottom: .5em;
     cursor: pointer;
 }
+.buttons .login:hover{
+    background-color: #8A8A8A;
+    color: white;
+}
+.buttons .signup:hover{
+    background-color: #8A8A8A;
+    color: white;
+}
