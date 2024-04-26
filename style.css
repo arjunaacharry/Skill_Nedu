@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.landing-page{
+    background: linear-gradient(#FFFFFF,#3F3F3F);
+    height: 100vh;
+}
 .buttons{
     margin-left: 1025px;
     padding: 2em;
@@ -35,4 +39,7 @@
 .buttons .signup:hover{
     background-color: #8A8A8A;
     color: white;
+}
+.logo{
+    margin-left: 25em;
 }
