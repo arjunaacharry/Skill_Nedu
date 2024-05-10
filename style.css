@@ -1,9 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans&family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans&family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin: 1em;
+    
+
+}
+.navbar .logo{
+    margin-left: 3.5em;
+}
+.navbar .link{
+    margin-top: -2em;
+    margin-left: 71em;
+    
+}
+.link a{
+    padding: 14px;
+    text-decoration: none;
+    color: #090909;
+    
+}
+.home .details{
+    /*background-color: aqua;*/
+    height: 500px;
+    width: 600px;
+    margin-top: 6em;
+    margin-left: 4em;
+}
+
+.home .details .title h1{
+    text-align: center;
+    font-family: 'Inknut Antiqua', sans-serif;
+    font-size: 71px;
+    font-style: normal;
+    font-weight: lighter;
+}
+.home .details .title p{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 7px;
+    line-height: 5%;
+}
+.home .details .para{
+    margin-left: 2em;
+    margin-top: 4em;
+    text-align: justify;
+}
+.btn{
+    margin-top: 4em;
+    margin-left: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #C35691;
+}
+.btn:hover{
+    background-color: transparent; 
+    border: 2px solid #C35691;
+    color: #C35691;
+    
+}
+.home img{
+    margin-left: 50em;
+    margin-top: -40em;
 }
 
 /* Container for left and right content */
@@ -76,5 +146,8 @@ svg {
 .card-body p{
     font-size:13px ;
 }
+
+
+
 
 
