@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container for left and right content */
+.split-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Adjust horizontal spacing */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+/* Style for left side (image) */
+.left-side {
+  flex: 1;
+}
+
+/* Image styling */
+.left-side img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 50px;
+    padding-left: 80px;
+    border-radius: 20px;
+  }
+
+/* Style for right side (text) */
+.right-side {
+  font-family: "Poppins", sans-serif;
+  flex: 1;
+}
+.right-side h1 {
+  font-size: 45px; /* Adjust heading size */
+  margin-bottom: 20px; /* Add some space below the heading */
+  font-weight: 300;
+}
+
+.card {
+  border: 1px solid #A55680;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px; /* Add space between cards */
+  margin-right: 50px; /* Add space between cards */
+  background-color: #f9f9f9; /* Add a light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.3s ease; /* Add smooth transition */
+}
+.card:hover {
+    transform: translateY(-5px); /* Add a slight lift effect on hover */
+}
+
+.card-header {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    font-size: 20px;
+}  
+svg {
+    width: 18px; /* Adjust the size of the SVG icon */
+    height: 18px;
+    margin-right: 5px; /* Add some space between the icon and the text */
+    color: #A55680;
+}
+
+.card-body{
+    margin-left: 25px;
+}
+.card-body a{
+    text-decoration: none;
+    color:#A55680 ;
+}
+.card-body p{
+    font-size:13px ;
+}
+
+
