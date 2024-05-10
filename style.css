@@ -27,3 +27,44 @@
 .home{
 
 }
+.home .details{
+    /*background-color: aqua;*/
+    height: 500px;
+    width: 600px;
+    margin-top: 6em;
+    margin-left: 4em;
+}
+
+.home .details .title h1{
+    text-align: center;
+    font-family: 'Inknut Antiqua', sans-serif;
+    font-size: 71px;
+    font-style: normal;
+    font-weight: lighter;
+}
+.home .details .title p{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 7px;
+    line-height: 5%;
+}
+.home .details .para{
+    margin-left: 2em;
+    margin-top: 4em;
+    text-align: justify;
+}
+.home .details .btn{
+    padding: 10px 20px;
+        background-color: #007bff; /* Blue color */
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+}
+.home .details .btn :hover{
+    background-color: #070; 
+}
