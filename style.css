@@ -1,45 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans&family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans&family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
-.landing-page{
-    background: linear-gradient(#FFFFFF,#3F3F3F);
-    height: 100vh;
+.navbar{
+    margin: 1em;
+    
+
 }
-.buttons{
-    margin-left: 1025px;
-    padding: 2em;
-    justify-content: space-between;
+.navbar .logo{
+    margin-left: 3.5em;
 }
-.buttons .login{
-    margin-right: 2em;
-    background-color: #579CFD;
-    border: 0;
-    border-radius: 15px;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    cursor: pointer;
+.navbar .link{
+    margin-top: -2em;
+    margin-left: 71em;
+    
 }
-.buttons .signup{
-    background-color: #579CFD;
-    border: 0;
-    border-radius: 15px;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    cursor: pointer;
+.link a{
+    padding: 14px;
+    text-decoration: none;
+    color: #090909;
+    
 }
-.buttons .login:hover{
-    background-color: #8A8A8A;
-    color: white;
-}
-.buttons .signup:hover{
-    background-color: #8A8A8A;
-    color: white;
-}
-.logo{
-    margin-left: 25em;
+.home{
+
 }
