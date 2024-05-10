@@ -7,14 +7,17 @@
 }
 .navbar{
     margin: 1em;
-    
+}
 
+.logo img{
+    height: 56px;
+    width: 188px;
 }
 .navbar .logo{
     margin-left: 3.5em;
 }
 .navbar .link{
-    margin-top: -2em;
+    margin-top: -2.7em;
     margin-left: 71em;
     
 }
@@ -45,16 +48,17 @@
     font-size: 27px;
     font-style: normal;
     font-weight: 100;
-    letter-spacing: 6px;
+    letter-spacing: 7px;
     line-height: 5%;
 }
 .home .details .para{
     margin-left: 2em;
     margin-top: 4em;
     text-align: justify;
+    margin-bottom: 4em; 
 }
 .btn{
-    margin-top: 4em;
+    /* */
     margin-left: 2em;
     padding-left: 2em;
     padding-right: 2em;
@@ -75,3 +79,76 @@
     margin-left: 50em;
     margin-top: -40em;
 }
+
+
+
+/* Container for left and right content */
+.split-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Adjust horizontal spacing */
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  /* Style for left side (image) */
+  .left-side {
+    flex: 1;
+  }
+  
+  /* Image styling */
+  .left-side img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      padding-top: 50px;
+      padding-left: 80px;
+      border-radius: 20px;
+    }
+  
+  /* Style for right side (text) */
+  .right-side {
+    font-family: "Poppins", sans-serif;
+    flex: 1;
+  }
+  .right-side h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+  
+  .card {
+    border: 1px solid #A55680;
+    border-radius: 5px;
+    padding: 1px;
+    margin-bottom: 20px; /* Add space between cards */
+    margin-right: 50px; /* Add space between cards */
+    background-color: #f9f9f9; /* Add a light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.3s ease; /* Add smooth transition */
+  }
+  .card:hover {
+      transform: translateY(-5px); /* Add a slight lift effect on hover */
+  }
+  
+  .card-header {
+      display: flex;
+      align-items: center; /* Align items vertically */
+      font-size: 20px;
+  }  
+  svg {
+      width: 18px; /* Adjust the size of the SVG icon */
+      height: 18px;
+      margin-right: 5px; /* Add some space between the icon and the text */
+      color: #A55680;
+  }
+  
+  .card-body{
+      margin-left: 25px;
+  }
+  .card-body a{
+      text-decoration: none;
+      color:#fff ;
+  }
+  .card-body p{
+      font-size:13px ;
+  }
