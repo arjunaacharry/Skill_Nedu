@@ -9,3 +9,6 @@ course.onclick = function() {
         course.href = "#"; 
     }
 }
+
+
+let

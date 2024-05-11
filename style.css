@@ -156,15 +156,15 @@ body {
   
   .card-header {
       display: flex;
-      align-items: center; /* Align items vertically */
+      align-items: center;
       font-size: 25px;
       background-color: transparent;
       border: none;
   }  
   svg {
-      width: 18px; /* Adjust the size of the SVG icon */
+      width: 18px;
       height: 18px;
-      margin-right: 22px; /* Add some space between the icon and the text */
+      margin-right: 22px;
       color: #A55680;
   }
   
