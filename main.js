@@ -1,6 +1,12 @@
 let course = document.getElementById("cor");
 
 course.onclick = function(){
-    course.textContent = "Home"
+    if(course.innerText === "Course")
+        {
+            course.textContent = "Home";
+        }
+    else{
+        course.textContent = "Course";
+        }
 }
 

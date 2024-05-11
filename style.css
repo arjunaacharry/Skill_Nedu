@@ -6,10 +6,28 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navigation{
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+
 .navbar{
     margin: 1em;
 }
-
 
 
 .logo img{
