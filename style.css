@@ -8,7 +8,7 @@
 }
 
 body {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 150px;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .navigation{
     background-color: #ffffff;
-    padding: 15px;
+    padding: 10px;
 }
 
 
@@ -91,12 +91,17 @@ body {
     transition: background-color 0.3s ease;
     background-color: #C35691;
 }
+.btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
 .btn:hover{
     background-color: transparent; 
     border: 2px solid #C35691;
     color: #C35691;
     
 }
+
 .home img{
     margin-left: 50em;
     margin-top: -40em;
