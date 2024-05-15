@@ -6,10 +6,28 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navigation{
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+
 .navbar{
     margin: 1em;
 }
-
 
 
 .logo img{
@@ -138,15 +156,15 @@
   
   .card-header {
       display: flex;
-      align-items: center; /* Align items vertically */
+      align-items: center;
       font-size: 25px;
       background-color: transparent;
       border: none;
   }  
   svg {
-      width: 18px; /* Adjust the size of the SVG icon */
+      width: 18px;
       height: 18px;
-      margin-right: 22px; /* Add some space between the icon and the text */
+      margin-right: 22px;
       color: #A55680;
   }
   
