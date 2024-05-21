@@ -77,12 +77,23 @@ form a{
 .btn{
     padding-left: 10em;
     padding-right: 10em;
-    border: none;
-    background: #A96287;
-    color: #ffffff;
     padding-top: .5em;
     padding-bottom: .5em;
     border-radius: 7px;
+    border: none;
+    background: #A96287;
+    color: #ffffff;
+
 }
 
+.signuptext{
+    margin-left: 10em;
+}
+.signuptext a{
+    text-decoration: none;
+    color: #A96287;
+    margin-left: 5px;
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+}
 
