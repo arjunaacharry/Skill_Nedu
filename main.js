@@ -8,7 +8,6 @@ course.onclick = function() {
         course.textContent = "Course";
         course.href = "#"; 
     }
-}
+};
 
 
-let
