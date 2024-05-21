@@ -45,9 +45,9 @@ body {
 .link a{
     padding: 14px;
     text-decoration: none;
-    color: #090909;
-    
+    color: #090909; 
 }
+
 .home .details{
     /*background-color: aqua;*/
     height: 500px;
