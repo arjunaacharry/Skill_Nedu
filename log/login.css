@@ -31,12 +31,10 @@ body{
     justify-content: space-between;
     padding: 20px;
 }
-
 .right {
     margin-right: -15em; 
     margin-top: -15em;
 }
-
 .right img{
     height: 90%;
 }
@@ -112,7 +110,6 @@ form a{
     box-shadow: none;
 }
  
-
 .signuptext{
     margin-left: 10em;
 }
