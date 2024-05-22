@@ -9,7 +9,7 @@
 
 body {
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .fixed-navbar {
@@ -123,22 +123,22 @@ body {
 }
   
 .left-side img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    padding-top: 50px;
-    padding-left: 80px;
-    border-radius: 20px;
+margin-left: 8em;
+margin-top: 6em;
+height: 500px;
+width: auto;
 }
   
 .right-side {
     font-family: "Roboto", sans-serif;
     flex: 1;
+    margin-left: 10em;
+
 }
 .right-side h1 {
     font-family: "Inknut Antiqua", sans-serif;
     font-size: 45px;
-    margin-top: -50px;
+    /* margin-top: -50px; */
     margin-bottom: 50px;
     font-weight: 300;
 }
