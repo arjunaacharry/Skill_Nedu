@@ -10,5 +10,4 @@ course.onclick = function() {
     }
 }
 
-// 
 
