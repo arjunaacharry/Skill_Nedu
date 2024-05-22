@@ -3,6 +3,8 @@
 
 body{
     overflow: hidden;
+
+
 }
 .navbar{
     padding: 20px;
@@ -59,6 +61,7 @@ form input{
     border-right: 0;
     color: #A96287;
     outline: none;
+    background-color: transparent;
 }
 .password-container {
     position: relative;

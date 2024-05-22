@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, white 25%, pink 25%);
 }
 .rect{
     background: #FDDFF0;
