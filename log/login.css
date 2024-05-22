@@ -6,10 +6,7 @@ body{
 }
 .navbar{
     padding: 20px;
-    margin-right: 3.5em;
-}
-
-.navbar-brand{
+    margin-right: 5.5em;
     margin-left: 3.5em;
 }
 
@@ -56,6 +53,7 @@ form input{
     display: block;
     padding-bottom: 0.5em;
     margin: 2em;
+    width:500px;
     border-top: 0;
     border-left: 0;
     border-right: 0;

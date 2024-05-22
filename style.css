@@ -8,43 +8,31 @@
 }
 
 body {
-    padding-top: 100px;
     padding-bottom: 50px;
 }
 
-.fixed-navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-.navigation{
-    background-color: #ffffff;
-    padding: 10px;
-}
 
 .navbar{
-    margin: 1em;
-}
-
-.logo img{
-    height: 56px;
-    width: 188px;
-}
-.navbar .logo{
+    padding: 20px;
+    margin-right: 5.5em;
     margin-left: 3.5em;
 }
-.navbar .link{
-    margin-top: -2.7em;
-    margin-left: 71em;
-    
+
+.navbar-brand img {
+    height: 56px;
+    width: auto;
 }
-.link a{
+.nav-link {
     padding: 14px;
-    text-decoration: none;
-    color: #090909; 
+    color: #090909;
 }
+
+.nav-link.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+
 
 .home .details{
     height: 500px;
@@ -138,7 +126,6 @@ width: auto;
 .right-side h1 {
     font-family: "Inknut Antiqua", sans-serif;
     font-size: 45px;
-    /* margin-top: -50px; */
     margin-bottom: 50px;
     font-weight: 300;
 }
