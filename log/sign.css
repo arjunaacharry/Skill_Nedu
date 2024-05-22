@@ -5,6 +5,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to right, white 25%, #FDDFF0 25%);
+    background-repeat: no-repeat;
     z-index: 1;
 }
 .rect{
