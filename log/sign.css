@@ -4,7 +4,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to right, white 25%, pink 25%);
+    background: linear-gradient(to right, white 25%, #FDDFF0 25%);
+    z-index: 1;
 }
 .rect{
     background: #FDDFF0;
