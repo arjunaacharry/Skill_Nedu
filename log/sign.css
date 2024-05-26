@@ -69,9 +69,22 @@ form input{
     outline: none;
     background-color: transparent;
 }
-#togglePassword {
-    cursor: pointer;
+.password-container {
+    position: relative;
 }
+.password-container input {
+    /* width: calc(100% - 2em); Adjust width to accommodate icon */
+    color: #000;
+}
+#togglePassword{
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: #000;
+}
+
 
 form a{
     text-decoration: none;
