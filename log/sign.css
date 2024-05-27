@@ -35,19 +35,19 @@ body {
 
 .con{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     margin-left: -20em;
 }
 
 .left {
-margin-left: 5em;
+margin-left: 2em;
 margin-top: 1em;
 }
 
 .right{
-    margin-left: 20px;
-    margin-top: 4em;
+    margin-left: -100px;
+    margin-top: 6em;
 }
 .signup h3{
     margin-left: 1.7em;
