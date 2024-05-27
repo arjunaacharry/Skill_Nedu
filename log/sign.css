@@ -69,6 +69,10 @@ form input{
     outline: none;
     background-color: transparent;
 }
+
+form input:hover {
+    border-color: #C35691;
+}
 .password-container {
     position: relative;
 }
