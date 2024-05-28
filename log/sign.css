@@ -35,19 +35,19 @@ body {
 
 .con{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     margin-left: -20em;
 }
 
 .left {
-margin-left: 5em;
+margin-left: 2em;
 margin-top: 1em;
 }
 
 .right{
-    margin-left: 20px;
-    margin-top: 4em;
+    margin-left: -100px;
+    margin-top: 6em;
 }
 .signup h3{
     margin-left: 1.7em;
@@ -69,9 +69,26 @@ form input{
     outline: none;
     background-color: transparent;
 }
-#togglePassword {
-    cursor: pointer;
+
+form input:hover {
+    border-color: #C35691;
 }
+.password-container {
+    position: relative;
+}
+.password-container input {
+    /* width: calc(100% - 2em); Adjust width to accommodate icon */
+    color: #000;
+}
+#togglePassword{
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: #000;
+}
+
 
 form a{
     text-decoration: none;
