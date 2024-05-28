@@ -17,6 +17,7 @@ body {
     margin-right: 5.5em;
     margin-left: 3.5em;
     background-color: #fff ;    
+    border-bottom: 1px solid rgb(208, 207, 207);
 }
 
 .navbar-brand img {
@@ -180,6 +181,7 @@ svg {
 .card-body a{
     text-decoration: none;
     color: #A55680;
+    cursor: pointer;
 }
 .card-body p{
     font-size:13px ;
@@ -187,5 +189,107 @@ svg {
 .card-text{
     margin-top: -20px;
     margin-bottom: -2px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+        margin-right: 1000em;
+        margin-left: 1em;
+        background-color: #fff ;
+    }
+    .navbar-brand img{
+        height: 30px;
+        width: auto;
+    }
+    /* .nav-link{
+       display: flex;
+       flex-direction: row;
+       background: #000;
+    } */
+    .nav-link{
+        /* background: #000; */
+    }
+
+    .home .details {
+        height: auto;
+        width: 90%;
+        margin-top: 7em;
+        margin-left: 1em;
+    }
+    .home .details .title{
+    margin-bottom: 1.5em;
+    }
+    .home .details .title h1 {
+        font-size: 50px;
+    }
+    .home .details .title p {
+        font-size: 18px;
+    }
+    .home .details .para {
+        font-size: 14px;
+        margin: auto;
+    }
+    .home img {
+        display: none;
+    }
+
+    .btn {
+        margin-top: 1em;
+        margin-left: 0em;
+        padding: 0.5em 1em;
+        font-size: 14px;
+        border-radius: 6px;
+
+    }
+
+    .split-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .left-side img {
+        margin: 0 auto;
+        margin-top: -1.5em;
+        height: auto;
+        width: calc(100% - 18px);
+    }
+
+    .right-side {
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 2.5em;
+    }
+
+    .right-side h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 2.9em;
+    }
+
+    .card {
+        margin-right: 0;
+        margin-left: -1em;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        margin-left: 0em;
+    
+    }
+
+    .card-body {
+        margin-left: 2.5em;
+        margin-right: 1em;
+    }
+
+    .card-header {
+        font-size: 20px;
+    }
+
+    .card-body p {
+        font-size: 12px;
+    }
 }
 
