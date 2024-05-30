@@ -11,7 +11,6 @@ body {
     padding-bottom: 20px;
 }
 
-
 .navbar{
     padding-right: 5em;
     padding-left: 5em;
@@ -34,8 +33,6 @@ body {
     pointer-events: none;
     opacity: 0.6;
 }
-
-
 
 .home .details{
     height: 500px;
@@ -96,8 +93,6 @@ body {
   outline: none; 
   box-shadow: none;
 }
-
-
 
 #course{
     margin-bottom: 50px;
@@ -197,21 +192,40 @@ svg {
 @media (max-width: 768px) {
     .navbar {
         padding: 10px;
-        /* margin-right: 1000em; */
-        /* margin-left: 1em; */
-        background-color: #fff ;
+        background-color: white;
     }
-    .navbar-brand img{
+
+    .navbar-brand img {
         height: 30px;
         width: auto;
     }
-    /* .nav-link{
-       display: flex;
-       flex-direction: row;
-       background: #000;
-    } */
-    .nav-link{
-        /* background: #000; */
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+        
+    }
+
+    .navbar-toggler-icon {
+        color: #090909;
+    }
+
+    .navbar-collapse {
+        padding: 10px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 10px;
+        color: #090909;
+    }
+
+    .nav-link:hover {
+        color: #C35691;
     }
 
     .home .details {
@@ -278,7 +292,6 @@ svg {
     .card:hover {
         transform: translateY(-5px);
         margin-left: 0em;
-    
     }
 
     .card-body {
@@ -294,4 +307,3 @@ svg {
         font-size: 12px;
     }
 }
-
