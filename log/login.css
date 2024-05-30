@@ -104,7 +104,7 @@ form a{
     border: none;
     background: #A96287;
     color: #ffffff;
-    margin-left: 6em;
+    margin-left: 2em;
     margin-top: 1em;
 }
 .btn:hover {
@@ -112,7 +112,8 @@ form a{
     border: 2px solid #C35691;
     color: #C35691;
     font-weight: 500;
-    /* padding: 0.4em 9em; */
+
+
 }
 .btn:focus,
 .btn:active
@@ -122,7 +123,7 @@ form a{
 }
  
 .signuptext{
-    margin-left: 10em;
+    margin-left: 5em;
 }
 .signuptext a{
     text-decoration: none;
