@@ -131,3 +131,79 @@ form a{
 .signuptext a:hover{
     color: #3d3dff;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        padding: 10px;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    .con {
+        display: block;
+        padding: 20px;
+    }
+
+    .right {
+        display: none
+    }
+    
+    .left {
+        margin-left: 0px;
+        flex: 1;
+    }
+
+    .login h3{
+        margin-left: 0;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    form{
+    margin-top: 2.5em;
+    margin-left: 0em;
+    }
+
+    form input{
+        margin: 0em;
+        text-align: center;
+    }
+    
+    form a{
+        margin: 0.5em auto;
+        text-align: center;
+    }
+
+    .password-container {
+        position: relative;
+    }
+    .password-container input {
+        width: calc(100% - 10px);
+    }
+    #togglePassword {/*password eye*/
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    #fp {      /*forgot password*/
+        position: relative;
+        top: -10px; 
+    }
+
+    .btn{
+        padding: 0.2em 9.16em;
+        border-radius: 7px;
+        margin-left: 0em;
+        margin-top: 1em;
+    }
+    .btn:hover {
+        padding: 0.1em 9em;
+    }
+
+    .signuptext{
+        margin-left: 0;
+        text-align: center;
+    }
+}
