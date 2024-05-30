@@ -58,7 +58,7 @@ form input{
     display: block;
     padding-bottom: 0.5em;
     margin: 2em;
-    width:00px;
+    width:100px;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -92,16 +92,19 @@ form a{
 }
 #fp {      /*forgot password*/
     position: relative;
-    top: -25px; 
+    top: -25px;
+    left:  calc(100% - 115px);
+    
 }
 
 .btn{
-    padding: 0.5em 9.16em;
+    height: calc(100% - 1px);
+    width: calc(100% - 1px);
     border-radius: 7px;
     border: none;
     background: #A96287;
     color: #ffffff;
-    margin-left: 6em;
+    margin-left: 2em;
     margin-top: 1em;
 }
 .btn:hover {
@@ -109,7 +112,8 @@ form a{
     border: 2px solid #C35691;
     color: #C35691;
     font-weight: 500;
-    padding: 0.4em 9em;
+
+
 }
 .btn:focus,
 .btn:active
@@ -119,7 +123,7 @@ form a{
 }
  
 .signuptext{
-    margin-left: 10em;
+    margin-left: 5em;
 }
 .signuptext a{
     text-decoration: none;
@@ -130,4 +134,116 @@ form a{
 }
 .signuptext a:hover{
     color: #3d3dff;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .navbar{
+        padding: 10px;
+        margin-right: 2.5em;
+        background-color: rgb(255, 255, 255);
+        margin-left: 0em;
+    }
+    .navbar-brand img {
+        height: 30px;
+        width: auto;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+        
+    }
+
+    .navbar-toggler-icon {
+        color: #090909;
+    }
+
+    .navbar-collapse {
+        padding: 10px;
+    }
+    
+    .nav-link {
+        padding: 10px;
+        color: #090909;
+    }
+    .nav-link.disabled {
+        pointer-events: none;
+        opacity: 0.6;
+    } 
+
+    .con {
+        display: block;
+        padding: 20px;
+    }
+
+    .right {
+        display: none
+    }
+    
+    .left {
+        margin-left: 0px;
+        flex: 1;
+    }
+
+    .login h3{
+        margin-left: 0;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    form{
+    margin-top: 2.5em;
+    margin-left: 0em;
+    }
+
+    form input{
+        margin: 0em;
+        text-align: left;
+    }
+    
+    form a{
+        margin: 0.5em auto;
+        text-align: center;
+    }
+
+    .password-container {
+        position: relative;
+    }
+    .password-container input {
+        width: calc(100% - 10px);
+    }
+    #togglePassword {/*password eye*/
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    #fp {      /*forgot password*/
+        position: relative;
+        top: -10px; 
+    }
+
+    .btn{
+        height: calc(100% - 1px);
+        width: calc(100% - 1px);
+        border-radius: 7px;
+        margin-left: 0em;
+        margin-top: 1em;
+    }
+    .btn:hover {
+        /* padding: 0.1em 9em; */
+    }
+
+    .signuptext{
+        margin-left: 0;
+        text-align: center;
+    }
 }
