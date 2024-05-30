@@ -115,16 +115,16 @@ body {
 }
   
 .left-side img {
-margin-left: 8em;
+margin-left: 5em;
 margin-top: 6em;
-height: 500px;
+height: 450px;
 width: auto;
 }
   
 .right-side {
     font-family: "Roboto", sans-serif;
     flex: 1;
-    margin-left: 10em;
+    margin-left: 9em;
 
 }
 .right-side h1 {
