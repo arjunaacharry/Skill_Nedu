@@ -58,7 +58,7 @@ form input{
     display: block;
     padding-bottom: 0.5em;
     margin: 2em;
-    width:00px;
+    width:100px;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -92,11 +92,14 @@ form a{
 }
 #fp {      /*forgot password*/
     position: relative;
-    top: -25px; 
+    top: -25px;
+    left:  calc(100% - 115px);
+    
 }
 
 .btn{
-    padding: 0.5em 9.16em;
+    height: calc(100% - 1px);
+    width: calc(100% - 1px);
     border-radius: 7px;
     border: none;
     background: #A96287;
@@ -109,7 +112,7 @@ form a{
     border: 2px solid #C35691;
     color: #C35691;
     font-weight: 500;
-    padding: 0.4em 9em;
+    /* padding: 0.4em 9em; */
 }
 .btn:focus,
 .btn:active
@@ -134,11 +137,46 @@ form a{
 
 
 @media only screen and (max-width: 768px) {
+
+
     .navbar{
         padding: 10px;
-        margin-right: 1em;
-        margin-left: 1em;
+        margin-right: 2.5em;
+        background-color: rgb(255, 255, 255);
+        margin-left: 0em;
     }
+    .navbar-brand img {
+        height: 30px;
+        width: auto;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+        
+    }
+
+    .navbar-toggler-icon {
+        color: #090909;
+    }
+
+    .navbar-collapse {
+        padding: 10px;
+    }
+    
+    .nav-link {
+        padding: 10px;
+        color: #090909;
+    }
+    .nav-link.disabled {
+        pointer-events: none;
+        opacity: 0.6;
+    } 
+
     .con {
         display: block;
         padding: 20px;
@@ -166,7 +204,7 @@ form a{
 
     form input{
         margin: 0em;
-        text-align: center;
+        text-align: left;
     }
     
     form a{
@@ -193,13 +231,14 @@ form a{
     }
 
     .btn{
-        padding: 0.2em 9.16em;
+        height: calc(100% - 1px);
+        width: calc(100% - 1px);
         border-radius: 7px;
         margin-left: 0em;
         margin-top: 1em;
     }
     .btn:hover {
-        padding: 0.1em 9em;
+        /* padding: 0.1em 9em; */
     }
 
     .signuptext{
