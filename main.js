@@ -9,5 +9,5 @@ course.onclick = function() {
         course.href = "#"; 
     }
 }
-
+// 
 

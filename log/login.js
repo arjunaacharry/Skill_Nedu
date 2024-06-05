@@ -31,9 +31,7 @@ if( username==username)
 
 else{
     console.log("Username incorrect");
-
 }
-
 
 
 let logedin = false;
