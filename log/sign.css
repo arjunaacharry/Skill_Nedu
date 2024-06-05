@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to right, white 25%, #FDDFF0 25%);
+    /* background: linear-gradient(to right, white 25%, #FDDFF0 25%); */
 }
 .rect{
     background: #FDDFF0;
@@ -77,16 +77,14 @@ form input:hover {
     position: relative;
 }
 .password-container input {
-    /* width: calc(100% - 2em); Adjust width to accommodate icon */
     color: #000;
 }
-#togglePassword{
+#togglePassword,#ConfirmtogglePassword{
     position: absolute;
     top: 50%;
-    right: 1em;
+    right: 3em;
     transform: translateY(-50%);
     cursor: pointer;
-    background: #000;
 }
 
 
@@ -98,21 +96,25 @@ form a{
     font-size: 12px;
 }
 
+
 .btn{
-   padding: 0.5em 9em;
+    height: 2.5em;
+    width: calc(90% - 1px);
     border-radius: 7px;
     border: none;
     background: #A96287;
     color: #ffffff;
-    margin-left: 6em;
+    margin-left: 2em;
     margin-top: 1em;
 }
-.btn:hover{
-    background-color: transparent; 
+.btn:hover {
+    background-color: transparent;
+    height: 40px;
     border: 2px solid #C35691;
     color: #C35691;
     font-weight: 500;
-    padding: 0.5em 9em;
+
+
 }
 .btn:focus,
 .btn:active
@@ -120,7 +122,7 @@ form a{
     outline: none; 
     box-shadow: none;
 }
-
+ 
 .logintext{
     margin-left: 10em;
 }
@@ -135,4 +137,3 @@ form a{
     color: #3d3dff;
 }
 
-/*  */
