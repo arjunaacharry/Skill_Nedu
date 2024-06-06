@@ -142,6 +142,10 @@ form a{
 
 @media (max-width: 768px) {
 
+    body{
+        height: 100%;
+        margin-bottom: -10000px;
+    }
 
     .navbar{
         padding: 10px;
@@ -209,6 +213,7 @@ form a{
     form input{
         margin: 0em;
         text-align: left;
+        padding: 0em;
     }
     
     form a{
@@ -231,7 +236,9 @@ form a{
     }
     #fp {      /*forgot password*/
         position: relative;
-        top: -10px; 
+        top: -10px;
+        left: 1px;
+
     }
 
     .btn{
@@ -241,9 +248,7 @@ form a{
         margin-left: 0em;
         margin-top: 1em;
     }
-    .btn:hover {
-        /* padding: 0.1em 9em; */
-    }
+
 
     .signuptext{
         margin-left: 0;
