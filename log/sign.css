@@ -137,3 +137,89 @@ form a{
     color: #3d3dff;
 }
 
+
+
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .rect {
+        margin-left: 0;
+        border-radius: 0;
+        background: transparent;
+    }
+
+    .navbar {
+        margin: 0;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+        width: auto;
+    }
+
+    .con {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .left {
+        margin-left: 0;
+        margin-top: -2em;
+        text-align: center;
+    }
+
+    .left img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1em;
+    }
+
+    .right {
+        margin: 0;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    
+    .signup h3{
+        margin-left: 0em;
+        margin-top: 0em;
+        font-size: 30px;
+    }
+
+    form {
+        margin-right: 0em;
+        margin-left: 0em;
+        width: 120%;
+        margin-top: 3em;
+    }
+
+    form input{
+        margin: 0em;
+        width: 300px;
+        padding: 0.5em 0.2em;
+    }
+    
+    #togglePassword, #ConfirmtogglePassword {
+        right: 4em;
+    }
+
+    .btn {
+        width: 83%;
+        height: 2.5em;
+        margin-left: -3.5em;
+        margin-top: 1em;
+    }
+
+    .logintext {
+        text-align: left;
+        margin: 0.5em 0;
+    }
+    .logintext{
+        margin-left: 1em;
+    }
+
+
+}
+

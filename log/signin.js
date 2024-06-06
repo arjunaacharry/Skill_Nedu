@@ -16,7 +16,7 @@ togglePassword.onclick = function () {
 
 
 let ConfirmtogglePassword = document.getElementById('ConfirmtogglePassword');
-const cpassword = document.getElementById('password');
+const cpassword = document.getElementById('cpassword');
 
 ConfirmtogglePassword.onclick = function () {
     const type = cpassword.getAttribute('type') === 'password' ? 'text' : 'password';
