@@ -10,7 +10,7 @@ course.onclick = function() {
     }
 }
 
-// test
+
 
 let navbarToggler = document.getElementById("navbar-toggler");
 let navbarMenu = document.getElementById("navbar-menu");
