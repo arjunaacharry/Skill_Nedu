@@ -9,7 +9,7 @@ course.onclick = function() {
         course.href = "#"; 
     }
 }
-// 
+
 
 
 let navbarToggler = document.getElementById("navbar-toggler");
