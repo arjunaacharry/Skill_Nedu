@@ -221,10 +221,7 @@ svg {
 
     .navbar {
         flex-direction: column;
-        /* margin-left: 1em; */
-        /* display: flex; */
         align-items: flex-start;    
-        /* width: 100%; */
     }
     .navbar-menu {
         display: none;
