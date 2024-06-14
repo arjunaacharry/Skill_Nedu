@@ -7,7 +7,7 @@ body {
     /* background: linear-gradient(to right, white 25%, #FDDFF0 25%); */
 }
 .rect{
-    background: #FDDFF0;
+    background: var(--primary-white);
     height: 100vh;
     border-radius: 67px 0px 0px 67px;
     margin-left: 20em;
@@ -25,11 +25,14 @@ body {
 }
 .nav-link {
     padding: 14px;
-    color: #090909;
+    color: var(--primary-black);
 }
 .nav-link.disabled {
     pointer-events: none;
     opacity: 0.6;
+}
+.nav-link:hover{
+    color: var(--primary-color);
 }
 
 
@@ -65,19 +68,19 @@ form input{
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    color: #A96287;
+    color: var(--primary-color);
     outline: none;
     background-color: transparent;
 }
 
 form input:hover {
-    border-color: #C35691;
+    border-color: var(--primary-color);
 }
 .password-container {
     position: relative;
 }
 .password-container input {
-    color: #000;
+    color: var(--primary-black);
 }
 #togglePassword,#ConfirmtogglePassword{
     position: absolute;
@@ -90,7 +93,7 @@ form input:hover {
 
 form a{
     text-decoration: none;
-    color: #A96287;
+    color: var(--primary-color);
     margin-left: 3em;
     font-family: "Inter",sans-serif;
     font-size: 12px;
@@ -102,16 +105,16 @@ form a{
     width: calc(90% - 1px);
     border-radius: 7px;
     border: none;
-    background: #A96287;
-    color: #ffffff;
+    background: var(--primary-color);
+    color:var(--primary-white);
     margin-left: 2em;
     margin-top: 1em;
 }
 .btn:hover {
     background-color: transparent;
     height: 40px;
-    border: 2px solid #C35691;
-    color: #C35691;
+    border: 2px solid var(--primary-color);
+    color:var(--primary-color);
     font-weight: 500;
 
 
@@ -128,13 +131,13 @@ form a{
 }
 .logintext a{
     text-decoration: none;
-    color: #A96287;
+    color: var(--primary-color);
     margin-left: 5px;
     font-family: "Inter",sans-serif;
     font-size: 16px;
 }
 .logintext a:hover{
-    color: #3d3dff;
+    color: var(--primary-black);
 }
 
 

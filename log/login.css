@@ -17,11 +17,14 @@ body{
 }
 .nav-link {
     padding: 14px;
-    color: #090909;
+    color: var(--primary-black);
 }
 .nav-link.disabled {
     pointer-events: none;
     opacity: 0.6;
+}
+.nav-link:hover{
+    color: var(--primary-color);
 }
 
 
@@ -62,16 +65,16 @@ form input{
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    color: #A96287;
+    color: var(--primary-color);
     outline: none;
     background-color: transparent;
 }
 form input:hover {
-    border-color: #C35691;
+    border-color: var(--primary-color);
 }
 form a{
     text-decoration: none;
-    color: #A96287;
+    color: var(--primary-color);
     margin-left: 3em;
     font-family: "Inter",sans-serif;
     font-size: 12px;
@@ -103,16 +106,16 @@ form a{
     width: calc(175% - 1px);
     border-radius: 7px;
     border: none;
-    background: #A96287;
-    color: #ffffff;
+    background: var(--primary-color);
+    color: var(--primary-white);
     margin-left: 2em;
     margin-top: 1em;
 }
 .btn:hover {
     background-color: transparent;
     height: 40px;
-    border: 2px solid #C35691;
-    color: #C35691;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
     font-weight: 500;
 
 
@@ -130,13 +133,13 @@ form a{
 }
 .signuptext a{
     text-decoration: none;
-    color: #A96287;
+    color: var(--primary-color);
     margin-left: 5px;
     font-family: "Inter",sans-serif;
     font-size: 16px;
 }
 .signuptext a:hover{
-    color: #3d3dff;
+    color: var(--primary-black);
 }
 
 
@@ -150,7 +153,7 @@ form a{
     .navbar{
         padding: 10px;
         margin-right: 2.5em;
-        background-color: rgb(255, 255, 255);
+        background-color: var(--primary-white);
         margin-left: 0em;
     }
     .navbar-brand img {
@@ -169,7 +172,7 @@ form a{
     }
 
     .navbar-toggler-icon {
-        color: #090909;
+        color: var(--primary-black)
     }
 
     .navbar-collapse {
@@ -178,7 +181,7 @@ form a{
     
     .nav-link {
         padding: 10px;
-        color: #090909;
+        color: var(--primary-black);
     }
     .nav-link.disabled {
         pointer-events: none;
@@ -201,7 +204,7 @@ form a{
 
     .login h3{
         margin-left: 0;
-        margin-top: 2em;
+        margin-top: 6em;
         text-align: center;
     }
 

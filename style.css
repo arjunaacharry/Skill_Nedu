@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans&family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +15,6 @@ body {
 .navbar{
     padding-right: 5em;
     padding-left: 5em;
-    border-bottom: 1px solid rgb(211, 211, 211);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,13 +48,13 @@ body {
 }
 
 .nav-link {
-    color: #3d1d1d;
+    color: var(--primary-black);
     text-decoration: none;
 }
 
 
 .nav-link:hover{
-color: #C35691;
+color: var(--primary-color);
 }
 
 .nav-link.disabled {
@@ -100,21 +100,21 @@ color: #C35691;
     margin-left: 2em;
     padding-left: 2em;
     padding-right: 2em;
-    color: #ffffff;
+    color: var(--primary-white);
     border: none;
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    background-color: #C35691;
+    background-color: var(--primary-color);
 }
 .btn a{
-    color: #ffffff;
+    color: var(--primary-white);
     text-decoration: none;
 }
 .btn:hover{
     background-color: transparent; 
-    border: 2px solid #C35691;
-    color: #C35691;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
 }
 .btn:focus,
 .btn:active {
@@ -180,7 +180,7 @@ width: auto;
 
 .card:hover::before {
     width: 100%;
-    box-shadow: #A55680 1px 1px 4px;
+    box-shadow: var(--primary-color) 1px 1px 4px;
     border-radius: 4px;
 }
 
@@ -197,7 +197,7 @@ svg {
     width: 18px;
     height: 18px;
     margin-right: 22px;
-    color: #A55680;
+    color: var(--primary-color);
 }
   
 .card-body{
@@ -205,7 +205,7 @@ svg {
 }
 .card-body a{
     text-decoration: none;
-    color: #A55680;
+    color: var(--primary-color);
     cursor: pointer;
 }
 .card-body p{
@@ -222,7 +222,7 @@ svg {
     .navbar {
         flex-direction: column;
         align-items: flex-start; 
-        background-color: #ffffff;   
+        background-color: var(--primary-white); 
         position: fixed;
         top: 0;
         left: 0;
@@ -230,14 +230,7 @@ svg {
         z-index: 1000; 
         
     }
-    .container{
-        /* width: 0; */
-    }
-    #navbar-menu-m{
-        /* background-color: #A55680; */
-    
-        
-    }
+
     .navbar-menu {
         display: none;
         flex-direction: row;
@@ -246,7 +239,7 @@ svg {
         padding-right:  0rem;
         margin-left: 0em;
         /* margin-right: 10em; */
-        background-color: #ffffff;
+        background-color: var(--primary-white); 
         width: 350px;
         margin-bottom: -0.5em;
     }
@@ -263,7 +256,7 @@ svg {
         border: none;
         cursor: pointer;
         font-size: 1.5rem;
-        color: #dc4dbb;
+        color: var(--primary-color);
         margin-left: 10em;
         margin-top: 0.5em;  
     }
@@ -274,7 +267,7 @@ svg {
     }
 
     .navbar-toggler-icon {
-        color: #dc4dbb;
+        color: var(--primary-color);
     }
     #navdiv1{
         width: 20em;
@@ -323,11 +316,11 @@ svg {
 
     .nav-link {
         font-size: 20px;
-        color: #000000;
+        color: var(--primary-black);
     }
 
     .navbar-nav .nav-link:hover {
-        color: #C35691;
+        color: var(--primary-color);
     }
 
     .home .details {
