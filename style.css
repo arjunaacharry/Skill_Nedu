@@ -244,7 +244,7 @@ svg {
         cursor: pointer;
         font-size: 1.5rem;
         color: #dc4dbb;
-        margin-left: 8.5em;
+        margin-left: 10em;
         margin-top: 0.5em;  
     }
 
@@ -275,7 +275,7 @@ svg {
 
     
     .navbar-toggler.open .navbar-toggler-icon {
-        /* transform: rotate(90deg); */
+        transform: rotate(45deg);
     }
 
     .navbar-toggler.open + .navbar-menu {
@@ -287,11 +287,13 @@ svg {
     }
 
     .navbar-nav {
+        display: flex;
         flex-direction: column;
     }
 
     .nav-item {
-        margin-right: 1rem;
+
+        margin-right: -15rem;
         margin-bottom: 1rem;
     }
 
@@ -300,8 +302,7 @@ svg {
     }
 
     .nav-link {
-        font-size: 14px;
-        padding: 10px;
+        font-size: 20px;
         color: #090909;
     }
 
