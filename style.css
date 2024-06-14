@@ -221,14 +221,26 @@ svg {
 
     .navbar {
         flex-direction: column;
-        align-items: flex-start;    
+        align-items: flex-start; 
+        /* background-color: #A55680;    */
+        
+    }
+    #navbar-menu-m{
+        /* background-color: #A55680; */
+    
+        
     }
     .navbar-menu {
         display: none;
-        flex-direction: column;
+        flex-direction: row;
         margin-top: 1rem;
-        padding-left: 0;
-        padding-right: 1rem;
+        padding-left: 2em;
+        padding-right:  0rem;
+        margin-left: 7em;
+        /* margin-right: 10em; */
+        background-color: #e1e1e1;
+        width: 350px;
+        margin-bottom: -0.5em;
     }
 
     .navbar-brand img {
@@ -292,8 +304,8 @@ svg {
     }
 
     .nav-item {
-
-        margin-right: -15rem;
+        /* margin-left: rem; */
+        /* margin-right: 3e m; */
         margin-bottom: 1rem;
     }
 
@@ -303,7 +315,7 @@ svg {
 
     .nav-link {
         font-size: 20px;
-        color: #090909;
+        color: #000000;
     }
 
     /* padding-inline-start: 3em; */
@@ -314,7 +326,7 @@ svg {
     .home .details {
         height: auto;
         width: 90%;
-        margin-top: 7em;
+        margin-top: 5em;
         margin-left: 1em;
     }
     .home .details .title{
@@ -365,7 +377,7 @@ svg {
     .right-side h1 {
         font-size: 30px;
         text-align: center;
-        margin-top: 2.9em;
+        margin-top: 3.2em;
     }
 
     .card {
