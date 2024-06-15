@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.con{
+    padding-bottom: 10em;
+
+}
+
+.b{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 5em;
+    margin-right: 5em;
+    align-items: center;
+}
+
+.l{
+    margin-top: 5em;
+    margin-right: 10em;
+}
+.l h2{
+    font-size: 50px;
+}
+
+.rimg{
+    height: 500px;
+    margin-top: 5em;
+}
+
+.c /*New section*/
+{
+    margin-top: 10em;
+}
