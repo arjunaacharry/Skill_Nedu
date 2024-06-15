@@ -170,6 +170,7 @@ width: auto;
 }
 .card:hover {
     transform: translateY(-5px);
+    cursor: pointer;
 }
 .card::before {
     content: '';
@@ -180,7 +181,6 @@ width: auto;
     height: 100%;
     transition: width 0.5s ease;
 }
-
 .card:hover::before {
     width: 100%;
     box-shadow: var(--primary-color) 1px 1px 4px;
@@ -209,7 +209,7 @@ svg {
 .card-body a{
     text-decoration: none;
     color: var(--primary-color);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .card-body p{
     font-size:13px ;
@@ -219,9 +219,9 @@ svg {
     margin-bottom: -2px;
 }
 .c-a{
-    cursor: pointer;
     text-decoration: none;
 }
+
 .c-a b, .c-a p{
     color: black;
 }
