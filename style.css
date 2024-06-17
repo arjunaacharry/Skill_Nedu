@@ -216,7 +216,7 @@ svg {
 }
 .c-a{
     text-decoration: none;
-    background: #000;
+    /* background: #000; */
 }
 
 .c-a b, .c-a p{
