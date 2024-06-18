@@ -44,18 +44,14 @@ body {
     display: -webkit-inline-box;
     align-items: flex-end;
 }
-
 .nav-item {
     margin-right: 1rem;
     display: flex;
 }
-
 .nav-link {
     color: var(--primary-black);
     text-decoration: none;
 }
-
-
 .nav-link:hover{
 color: var(--primary-color);
 }
