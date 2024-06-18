@@ -235,7 +235,7 @@ svg {
         top: 0;
         left: 0;
         right: 0;
-        z-index: 1000; 
+        z-index: 1; 
         
     }
 
@@ -273,18 +273,10 @@ svg {
         outline: none;
         box-shadow: none;
     }
-
-    .navbar-toggler-icon {
-        color: var(--primary-color);
-    }
     #navdiv1{
         width: 20em;
         text-align: right;
         margin-top: -2.9rem;
-    }
-
-    .navbar-toggler:focus {
-        outline: none;
     }
 
     .navbar-toggler-icon {
@@ -292,6 +284,8 @@ svg {
         width: 1em;
         height: 1em;
         margin-right: -6em;
+        color: var(--primary-color);
+
     }
 
 
@@ -404,4 +398,12 @@ svg {
     .card-body p {
         font-size: 12px;
     }
+    .card::before{
+        display: none;
+    }
+    .card:hover::before {
+        display: none;
+    }
 }
+
+
