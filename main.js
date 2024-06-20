@@ -22,5 +22,6 @@ navbarToggler.addEventListener("click", function() {
     } else {
         navbarMenu.style.display = "flex";
         navbarToggler.classList.add("open");
+
     }
 });

@@ -33,7 +33,6 @@ body{
     justify-content: space-between;
     padding: 20px;
 }
-
 .right {
     margin-right: -15em; 
     margin-top: -15em;
@@ -41,7 +40,6 @@ body{
 .right img{
     height: 90%;
 }
-
 .left{
     margin-left: 20px;
 }
@@ -79,7 +77,6 @@ form a{
     font-family: "Inter",sans-serif;
     font-size: 12px;
 }
-
 .password-container {
     position: relative;
 }
@@ -96,9 +93,7 @@ form a{
 #fp {      /*forgot password*/
     position: relative;
     top: -25px;
-    /* left:  calc(100% - 1px); */
     right: -365px;
-    
 }
 
 .btn{
@@ -117,8 +112,6 @@ form a{
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
     font-weight: 500;
-
-
 }
 .btn:focus,
 .btn:active
@@ -160,25 +153,19 @@ form a{
         height: 30px;
         width: auto;
     }
-
     .navbar-toggler {
         border: none;
     }
-
     .navbar-toggler:focus {
         outline: none;
         box-shadow: none;
-        
     }
-
     .navbar-toggler-icon {
         color: var(--primary-black)
     }
-
     .navbar-collapse {
         padding: 10px;
     }
-    
     .nav-link {
         padding: 10px;
         color: var(--primary-black);
@@ -192,11 +179,9 @@ form a{
         display: block;
         padding: 20px;
     }
-
     .right {
         display: none
     }
-    
     .left {
         margin-left: 0px;
         flex: 1;
@@ -212,13 +197,11 @@ form a{
     margin-top: 2.5em;
     margin-left: 0em;
     }
-
     form input{
         margin: 0em;
         text-align: left;
         padding: 0em;
     }
-    
     form a{
         margin: 0.5em auto;
         text-align: center;
@@ -241,7 +224,6 @@ form a{
         position: relative;
         top: -10px;
         left: 1px;
-
     }
 
     .btn{
