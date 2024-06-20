@@ -62,7 +62,7 @@
         padding: 0.5em 1.5em 0.5em 1.5em;  /* top  right bottom  left */
     }
     .navbar-brand img {
-        height: 30px;
+        height: 40px;
     }
     .navbar-toggler {
         display: inline-flex;
@@ -96,7 +96,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding: 0.5em 1.5em;
+        /* padding: 0.5em 1.5em; */
         background-color: rgb(162, 249, 249);
     }
 
@@ -104,7 +104,7 @@
         flex-direction: column;
         align-items: flex-start;
         margin-top: 0;
-        height: 1000px;
+        /* height: 100px; */
     }
 
     .nav-item {
