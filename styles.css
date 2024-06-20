@@ -4,6 +4,8 @@
 }
 
 .navbar {
+    position: fixed;
+    width: 100%;
     /* background: #000; */
 }
 
@@ -11,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0em 5em 0.2em 5em;  /* top  right bottom  left */
-    background: #277;
+    /* background: #277; */
 }
 
 .navbar-brand img {
@@ -24,12 +26,16 @@
 
 .navbar-nav {
     display: flex;
+    justify-content: flex-end;
     margin-top: -45px;
+    /* background: #a87c7c; */
+    text-decoration: none;
+    list-style-type: none;  /* Add this line to remove the dots */
 }
 
 .nav-item {
     margin-right: 5em;
-    display: flex;
+    text-decoration: none;
 }
 
 .nav-link {
@@ -41,6 +47,12 @@
 .nav-link:hover {
     color: var(--primary-color);
 }
+
+.monkey{
+    display: none;
+}
+
+
 
 @media (max-width: 768px) {
     .navbar-menu {
@@ -65,12 +77,11 @@
         color: var(--primary-color);
     }
 
-    .monkey {
+    /* .monkey {
         display: inline-block;
         height: auto;
         animation: swing 2s infinite ease-in-out;
         margin-right: 0.5em;
-        background: #000;
     }    
     @keyframes swing {
         0% {transform: rotate(0deg);}
@@ -79,7 +90,7 @@
         75% {transform: rotate(-15deg);}
         100% {transform: rotate(0deg);}
     }
-
+ */
 
     .navbar-menu.open {
         display: flex;
