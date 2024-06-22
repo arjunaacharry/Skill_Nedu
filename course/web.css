@@ -1,3 +1,10 @@
+:root{
+    --primary-color: #C35691;
+    --primary-black: #000;
+    --primary-white: #fff;
+}
+
+
 body{
     margin: 0;
     padding: 0;
